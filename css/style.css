@@ -400,8 +400,8 @@ form input[type=submit]{
         padding-right: 3rem;
     }
     .mobile-menu-icon button {
-        background-color: #0f6a94;
-        border-color: #00000000;
+        background-color: transparent;
+        border-color: transparent;
         border-radius: 15%;      
         cursor: pointer;
     }
