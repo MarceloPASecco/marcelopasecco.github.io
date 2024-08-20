@@ -3,22 +3,19 @@
     padding: 0;
     margin: 0;
     font-family: "Roboto", sans-serif;
+
 }
 
 body {
     background-color: #f7fcff;
-}
-
-
-header {
-    
-    padding-bottom: 0.5rem;
 
 }
+
 .nav-bar {
 
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 2rem 6rem;
 }
 
@@ -27,12 +24,14 @@ header {
     align-items: center;
     padding-left: 1rem;
     padding-right: 0rem;
-    height: 90px;
+    height: 150px;
     width: auto;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .logo, .logoimg {
-    width: 170px;
+    width: 180px;
 }
 
 .inicio {
@@ -74,12 +73,11 @@ header {
     display: flex;
     justify-content: center;
     list-style: none;
-    padding-left: 0.5rem;
+
 }
 
 .nav-item {
-    margin: 0 15px 0 0;
-    padding-right: 1rem;
+    margin: 0 30px 0 0;
 }
 
 .nav-link {
@@ -160,11 +158,13 @@ div .textinicio1 {
 }
 
 .socials {
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-right: 0rem;
+    padding-left: 15px;
     padding-bottom: 0;
     display: flex;
     justify-content: center;
+    align-content: center;
 
 }
 
@@ -228,7 +228,15 @@ footer {
     
 }
 
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
 form{
+    display: flex;
+    flex-direction: column;
     background: #fff;
     max-width: 500px;
     height: 450px;
@@ -272,14 +280,14 @@ form .input-single .input{
 }
 
 form .input-single .input:focus{
-    border-bottom: 2px solid #2D5966;
+    border-bottom: 2px solid #003f52;
 }
 
 form .input-single .input:focus ~ label,
 form .input-single .input:valid ~ label{
     transform: translateY(-20px);
     font-size: 12px;
-    color: #2D5966;
+    color: #003d66;
 }
 
 .btn{
@@ -291,7 +299,7 @@ form input[type=submit]{
     padding: 10px 40px;
     border: 0;
     border-radius: 10px;
-    background-color: #2D5966;
+    background-color: #014e5c;
     color: #fff;
     font-size: 14pt;
     cursor: pointer;
@@ -309,12 +317,11 @@ form input[type=submit]{
     }
     .mobile-menu-icon {
         display: block;
-        justify-content: center;
         align-content: center;
-        padding-right: 4rem;
+  
     }
     .mobile-menu-icon button {
-        background-color: #0063a5;
+        background-color: transparent;
         border-color: transparent;
         border-radius: 10%;      
         cursor: pointer;
@@ -324,7 +331,10 @@ form input[type=submit]{
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
+        padding-left: 45px;
+
     }
+
     .mobile-menu .nav-item {
         display: block;
         padding-top: 1.2rem;
@@ -382,30 +392,34 @@ form input[type=submit]{
         align-content: center;
     }
 
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        padding-left: 45px;
+
+    }
 
     .nav-item {
         display: none;
     }
     .mobile-menu-icon {
         display: block;
-        justify-content: center;
-        padding-right: 3rem;
+        justify-content: center;    
     }
     .mobile-menu-icon button {
         background-color: #0f6a94;
         border-color: #00000000;
-        border-radius: 15%;      
+        border-radius: 15%; 
+        transition: .5s;     
         cursor: pointer;
     }
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
+
     .mobile-menu .nav-item {
         display: block;
         padding-top: 1.2rem;
+        transition: 5s;
     }
     .open {
         display: block;
