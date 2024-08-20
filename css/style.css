@@ -19,7 +19,7 @@ header {
 
     display: flex;
     justify-content: space-around;
-    padding: 2rem 6rem;
+    padding: 0 4rem;
 }
 
 .nav-bar, .logo {
