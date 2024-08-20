@@ -25,7 +25,7 @@ header {
 .nav-bar, .logo {
     display: flex;
     align-items: center;
-    padding-left: 1rem;
+    padding-left: 0rem;
     padding-right: 0rem;
     height: 90px;
     width: auto;
@@ -319,7 +319,7 @@ form input[type=submit]{
         display: block;
         justify-content: center;
         align-content: center;
-        padding-right: 4rem;
+        padding-right: 0rem;
     }
     .mobile-menu-icon button {
         background-color: transparent;
@@ -397,11 +397,9 @@ form input[type=submit]{
     .mobile-menu-icon {
         display: block;
         justify-content: center;
-        padding-right: 3rem;
+        padding-right: 0rem;
     }
     .mobile-menu-icon button {
-        background-color: transparent;
-        border-color: transparent;
         border-radius: 15%;      
         cursor: pointer;
     }
