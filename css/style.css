@@ -322,7 +322,7 @@ form input[type=submit]{
         padding-right: 4rem;
     }
     .mobile-menu-icon button {
-        background-color: #0063a5;
+        background-color: transparent;
         border-color: transparent;
         border-radius: 10%;      
         cursor: pointer;
