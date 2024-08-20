@@ -41,16 +41,27 @@
     <container>
         <div class="socials"><a href="#" class="nav-link"><a href="https://instagram.com/sameirotravel"target="_blank"><img src="assets/img/insta_icon.svg" alt="Instagram" class="insta"></a></a>
             <a href="#" class="nav-link"><a href="https://wa.link/4swhre"target="_blank"><img src="assets/img/whats_icon.svg" alt="Whatsapp" class="whats"></a></a></div>
-        <div class="inicio-container">
-            <h1>Bem vindo a Sameirotravel Viagens e Turismo</h1>
-            <div class="inicio"><img src="assets/img/inicio.png" alt="inicio" class="imginicio">
-            </div>
-            <div class="textinicio1"> 
-            <h2>Novas Experiências</h2>  
-            <p class="textbody">Na Sameirotravel poderá adquirir para os vossos clientes experiências personalizadas durante a viagem, como entrada em atrativos turísticos e museus, passeios temáticos, reservas em restaurantes, cruzeiros, visita a quintas vinícolas e caves de vinho, degustação de vinhos, as vindimas (colheita e pisa das uvas) entre outros.
-            </p>
-            </div>
-        </div>
+            <section class="form-container">
+                <div class="container">
+                    <form method="post" action="assets/php/envio.php">
+                        <h1>Entre em contato</h1>
+                        <p>Preencha o formulário abaixo e entraremos em contato com você</p>
+                        <div class="input-single">
+                            <input class="input" type="text" id="nome" name="nome" required autocomplete="off">
+                            <label for="nome">Seu nome completo</label>
+                        </div>
+                        <div class="input-single">
+                            <input class="input" type="text" id="email" name="email" required autocomplete="off">
+                            <label for="email">Seu e-mail</label>
+                        </div>
+                        <div class="input-single">
+                            <input class="input" type="text" id="telefone" name="telefone" required autocomplete="off">
+                            <label for="telefone">Seu telefone</label>
+                        </div>
+                        <div class="btn"><input type="submit" value="Enviar"></div>
+                    </form>
+                </div><!--container-->
+            </section>
 
     </container>
 
