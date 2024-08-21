@@ -8,7 +8,7 @@
 
 body {
     background-color: #f7fcff;
-    margin-top: 10px;
+    margin-top: 0px;
 
 }
 
@@ -30,6 +30,7 @@ body {
 }
 
 .logo, .logoimg {
+    display: flex;
     width: 50%;
 }
 
@@ -344,10 +345,18 @@ form input[type=submit]{
     cursor: pointer;
 }
 
-@media screen and (max-width: 900px) and (min-width: 550px) {
+@media screen and (max-width: 940px) and (min-width: 550px) {
     .h1 {
         text-align: center;
         align-content: center;
+    }
+
+    .logo {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 35%;
+        margin-top: 100px;
     }
 
     .nav-bar {
@@ -357,14 +366,15 @@ form input[type=submit]{
         
     }
 
+
     .nav-item {
         display: none;
     }
     .mobile-menu-icon {
         display: block;
         align-content: center;
-
-  
+        margin-top: -100px;
+        margin-left: -130px;
     }
     .mobile-menu-icon button {
         background-color: transparent;
@@ -485,8 +495,9 @@ form input[type=submit]{
     }
     .mobile-menu-icon {
         display: block;
-        justify-content: center;  
-
+        align-content: center;
+        margin-top: -100px;
+        margin-left: 0px;
     }
     .mobile-menu-icon button {
         background-color: #0f6a9400;
@@ -508,6 +519,8 @@ form input[type=submit]{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-right: 18%;
+        margin-top: 100px;
     }
 
 
