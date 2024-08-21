@@ -15,8 +15,8 @@ body {
 .nav-bar {
 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around
 
 }
 
@@ -350,12 +350,20 @@ form input[type=submit]{
         align-content: center;
     }
 
+    .nav-bar {
+
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
     .nav-item {
         display: none;
     }
     .mobile-menu-icon {
         display: block;
         align-content: center;
+        padding: 4rem;
   
     }
     .mobile-menu-icon button {
@@ -378,7 +386,7 @@ form input[type=submit]{
 
     .mobile-menu .nav-item {
         display: block;
-        padding-top: .6rem;
+        padding-top: 1rem;
     }
     .open {
         display: block;
@@ -448,12 +456,18 @@ form input[type=submit]{
 
 @media screen and (max-width: 550px) {
     
+    .nav-bar {
 
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
 
     .h1 {
         text-align: center;
         align-content: center;
     }
+    
 
     .mobile-menu ul {
         display: flex;
@@ -471,7 +485,8 @@ form input[type=submit]{
     }
     .mobile-menu-icon {
         display: block;
-        justify-content: center;    
+        justify-content: center;  
+        padding-left: 4rem;  
     }
     .mobile-menu-icon button {
         background-color: #0f6a9400;

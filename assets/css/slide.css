@@ -1,10 +1,10 @@
 section.slider{
     margin: 0 auto;
-    width: 45%;
+    width: 70%;
     height: auto;
     padding: 0 !important;
     overflow: hidden;
-
+    
 
 }
 
@@ -32,8 +32,8 @@ section.slider{
 
 .nav-manual, .nav-auto{
     position: absolute;
-    width: 45%;
-    margin-top: 22%;
+    width: 70%;
+    margin-top: 35%;
     display: flex;
     justify-content: center;
     padding-bottom: 80px;
@@ -41,7 +41,7 @@ section.slider{
 
 .nav-manual .manual-btn, .nav-auto div{
     border: 1px solid #004e97;
-    padding: 10px;
+    padding: 4px;
     border-radius: 90%;
     cursor: pointer;
     transition: 0.2s;
@@ -81,6 +81,6 @@ section.slider{
     }
 
     .nav-auto, .nav-manual{
-        margin-top: 22%;
+        margin-top: 35%;
     }
 }
