@@ -1,10 +1,11 @@
 section.slider{
     margin: 0 auto;
-    width: 65%;
+    width: 45%;
     height: auto;
     padding: 0 !important;
     overflow: hidden;
-    border-radius: 100px;
+
+
 }
 
 .slider-content{
@@ -22,7 +23,7 @@ section.slider{
     height: auto;
     position: relative;
     text-align: center;
-    transition: 3s;
+    transition: 1s;
 }
 
 .slide-box img{
@@ -31,17 +32,17 @@ section.slider{
 
 .nav-manual, .nav-auto{
     position: absolute;
-    width: 65%;
-    margin-top: 32%;
+    width: 45%;
+    margin-top: 22%;
     display: flex;
     justify-content: center;
     padding-bottom: 80px;
 }
 
 .nav-manual .manual-btn, .nav-auto div{
-    border: 1px solid #0084ff;
+    border: 1px solid #004e97;
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 90%;
     cursor: pointer;
     transition: 0.2s;
 }
@@ -55,7 +56,7 @@ section.slider{
 }
 
 #radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
-    background-color: #0084ff;
+    background-color: #004585;
 }
 
 #radio1:checked ~ .first{
@@ -80,6 +81,6 @@ section.slider{
     }
 
     .nav-auto, .nav-manual{
-        margin-top: 32%;
+        margin-top: 22%;
     }
 }

@@ -15,15 +15,13 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 2rem 6rem;
+    justify-content: center;
+
 }
 
 .nav-bar, .logo {
     display: flex;
     align-items: center;
-    padding-left: 1rem;
-    padding-right: 0rem;
     height: 150px;
     width: auto;
     margin-top: 0;
@@ -37,7 +35,6 @@ body {
 .inicio {
     display: flex;
     flex-direction: row;
-    padding-right: 3rem;
 }
 
 .badge {
@@ -97,10 +94,9 @@ body {
 .nav-bar .socials {
     display: flex;
     flex-direction: row;
-    padding-left: 0rem;
 }
-.insta {
-    padding-right: 2px ;
+.socials, .insta {
+    padding-right: 15px ;
 }
 
 .mobile-menu-icon {
@@ -111,24 +107,12 @@ body {
     display: none;
 }
 
-h1 {
-    color: #004b7c;
-    display: flex;
-    font-size: 30px;
-    text-align: center;
-    justify-content: center;
-    padding-top: 0.25rem;
-    padding-bottom: 3rem;
-}
-
 .imginicio {
     display: block;
     margin: auto;
     align-items: center;
-    width: 30%;
+    width: 100%;
     height: auto;
-    border-radius: 180px;
-    padding-left: 2rem;
     padding-bottom: 0.5rem;
 
 }
@@ -141,9 +125,10 @@ h2 {
 .textbody{
     display: flex;
     flex-direction: row;
+    max-width: 650px;
     margin-right: 15%;
     margin-left: 15%;
-    padding-bottom: 0.25rem;
+    padding-bottom: 80px;
 }
 
 div .textinicio1 {
@@ -158,10 +143,9 @@ div .textinicio1 {
 }
 
 .socials {
-    padding-top: 2rem;
+    padding-top: 2.5rem;
     padding-right: 0rem;
-    padding-left: 15px;
-    padding-bottom: 0;
+    padding-bottom: 1rem;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -181,10 +165,14 @@ footer {
     position: fixed;
     padding-top: 0.5;
     background-color: #eeeeee;
-    color: #979797;
+    color: #004e8d;
     margin-top: 120px;
 }
 
+footer a{
+    text-decoration: none;
+    color: #003d66;
+}
 .sectionabout{
     padding-top: 0;
     margin-top: 0;
@@ -326,27 +314,24 @@ form input[type=submit]{
         border-radius: 10%;      
         cursor: pointer;
     }
+
     .mobile-menu ul {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         text-align: center;
         padding-bottom: 1rem;
-        padding-left: 45px;
+        padding-top: 30px;
+        padding-left: 28px;
 
     }
 
     .mobile-menu .nav-item {
         display: block;
-        padding-top: 1.2rem;
+        padding-top: .6rem;
     }
     .open {
         display: block;
-    }
-
-    .imginicio {
-        display: block;
-        margin: auto;
-        width: 280px;
     }
 
     h1 {
@@ -395,9 +380,11 @@ form input[type=submit]{
     .mobile-menu ul {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         text-align: center;
         padding-bottom: 1rem;
-        padding-left: 45px;
+        padding-top: 30px;
+        padding-left: 28px;
 
     }
 
@@ -409,7 +396,7 @@ form input[type=submit]{
         justify-content: center;    
     }
     .mobile-menu-icon button {
-        background-color: #0f6a94;
+        background-color: #0f6a9400;
         border-color: #00000000;
         border-radius: 15%; 
         transition: .5s;     
@@ -418,8 +405,8 @@ form input[type=submit]{
 
     .mobile-menu .nav-item {
         display: block;
-        padding-top: 1.2rem;
-        transition: 5s;
+        padding-top: .6rem;
+        transition: .5s;
     }
     .open {
         display: block;
@@ -429,11 +416,7 @@ form input[type=submit]{
         align-items: center;
         justify-content: center;
     }
-    .imginicio {
-        display: block;
-        margin: auto;
-        width: 180px;
-    }
+
 
     h1 {
         font-size: 20px;
@@ -442,6 +425,7 @@ form input[type=submit]{
         flex-direction: column;
         margin: auto;
         padding-top: 10px;
+
 
     }
 
@@ -464,6 +448,7 @@ form input[type=submit]{
 
     .aboutimg {
         width: 230px;
+        height: auto;
         border-radius: 10%;
         margin: auto;
     }
