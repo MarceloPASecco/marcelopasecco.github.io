@@ -30,7 +30,7 @@ body {
 }
 
 .logo, .logoimg {
-    width: 180px;
+    width: 50%;
 }
 
 .inicio {
@@ -351,10 +351,10 @@ form input[type=submit]{
     }
 
     .nav-bar {
-
-        display: flex;
         flex-direction: row-reverse;
-        justify-content: space-evenly;
+        justify-content: space-around;
+        margin-left: 20%;
+        
     }
 
     .nav-item {
@@ -363,7 +363,7 @@ form input[type=submit]{
     .mobile-menu-icon {
         display: block;
         align-content: center;
-        padding: 4rem;
+
   
     }
     .mobile-menu-icon button {
@@ -486,7 +486,7 @@ form input[type=submit]{
     .mobile-menu-icon {
         display: block;
         justify-content: center;  
-        padding-left: 4rem;  
+
     }
     .mobile-menu-icon button {
         background-color: #0f6a9400;
