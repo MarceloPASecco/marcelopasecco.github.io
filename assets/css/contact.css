@@ -14,15 +14,14 @@ h1{
 }
   
   h2::before {
-    content: "🐅";
     display: flex;
     justify-content: center;
   }
 
-  p{
+  h4{
     color: rgb(86, 170, 1);
     margin-top: 15px;
-    
+    text-size-adjust: 15px;
   }
   
   .form {
