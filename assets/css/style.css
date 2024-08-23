@@ -149,14 +149,14 @@ h2 {
 
 div .textinicio1 {
     display: flex;
-    text-align: justify;
+    text-align: center;
     margin: auto;
     justify-items: center;
     align-items:center;
     padding-top: 20px;
     color: #004b7c;
     border-radius: 50px;
-    background-color: #f8fdff52;
+    background-color: #f8fdff3a;
 }
 
 .socials {
@@ -240,6 +240,7 @@ footer a{
     height: 500px;
     border-radius: 10%;
     margin-top: 1rem;
+    margin-right: 25px;
 
 }
 
@@ -261,8 +262,11 @@ footer a{
 
 .aboutp {
     padding-top: 0;
-    text-align: justify;
-    padding-bottom: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #5fbfff2f;
+    border-radius: 30px;
+    padding-top: 15px;
 }
 
 .abouth2 {
