@@ -1,0 +1,99 @@
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+h1{
+    margin-bottom: 50px;
+    color: #003f4e;
+}
+  
+  h2::before {
+    content: "🐅";
+    display: flex;
+    justify-content: center;
+  }
+
+  p{
+    color: rgb(86, 170, 1);
+    margin-top: 15px;
+    
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    width: 60%;
+    font-size: 1.125rem;
+    padding-bottom: 3rem;
+    margin-bottom: 80px;
+    background-color: rgba(0, 155, 221, 0.041);
+  }
+  
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .form label {
+    color: #005564;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form input,
+  .form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #0072c4;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+  }
+  
+  .form textarea {
+    min-height: 13rem;
+    resize: vertical;
+  }
+  
+  .form input:hover,
+  .form input:focus,
+  .form textarea:hover,
+  .form textarea:focus {
+    outline: none;
+    border-color: #09d;
+    box-shadow: 0 0 0 3px #4dc8ff;
+  }
+  
+  .form button {
+    display: block;
+    padding: 1rem;
+    background: #0072c4;
+    color: #fff;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    
+  }
+  
+  .form button:hover,
+  .form button:focus {
+    outline: none;
+    background: #09d;
+  }
